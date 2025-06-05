@@ -22,21 +22,11 @@ const ProjectArticle: React.FC<ProjectArticleProps> = ({ project }) => {
 
       <div className="md:col-1">
         <img src={screenshot.img} alt={screenshot.alt} />
-        <div className="text-xs text-font-secondary py-1">{screenshot.alt}</div>
+        <div className="text-xs md:text-sm text-font-secondary py-1">{screenshot.alt}</div>
       </div>
 
       <nav className="mt-8">
         <ul className="flex justify-between gap-3 flex-wrap md:col-2 md:flex-col md:justify-start md:ml-12 md:gap-10 md:m-0">
-          <li>
-            <a
-              href={gitHub}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="uppercase hover-underline py-1.5"
-            >
-              View GitHub Repo
-            </a>
-          </li>
           <li>
             <a
               href={link}
@@ -45,6 +35,16 @@ const ProjectArticle: React.FC<ProjectArticleProps> = ({ project }) => {
               className="uppercase hover-underline py-1.5"
             >
               Visit website
+            </a>
+          </li>
+          <li>
+            <a
+              href={gitHub}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="uppercase hover-underline py-1.5"
+            >
+              View GitHub Repo
             </a>
           </li>
         </ul>
@@ -59,7 +59,7 @@ const ProjectArticle: React.FC<ProjectArticleProps> = ({ project }) => {
         {improvements ? (
           <section>
             <h2>Reflections and Improvements</h2>
-            <p>After feedback I have made some improvements on this project</p>
+            <p className="mb-4">After feedback I have made some improvements on this project</p>
             <ul className="list-disc ml-6 flex flex-col gap-2">
               {improvements.map((item) => (
                 <li>{item}</li>
