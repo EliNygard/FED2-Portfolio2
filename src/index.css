@@ -38,6 +38,8 @@ p {
 }
 
 @theme {
+  --breakpoint-sm: 31rem;
+  --breakpoint-lg: 58rem;
   --font-dm-sans: "DM Sans", sans-serif;
   --color-theme-secondary: #f0e9e0;
 }
