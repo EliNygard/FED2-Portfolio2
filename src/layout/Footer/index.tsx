@@ -8,7 +8,7 @@ const Footer = () => {
               href="https://www.linkedin.com/in/eli-nygard"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover-underline pt-2.5"
+              className="hover-underline py-1.5"
             >
               Visit my <span className="uppercase">Linkedin</span>
             </a>
@@ -18,13 +18,13 @@ const Footer = () => {
               href="https://github.com/EliNygard"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover-underline pt-2.5"
+              className="hover-underline py-1.5"
             >
               Visit my <span className="uppercase">GitHub</span>
             </a>
           </li>
           <li>
-            <a href="mailto:eli.nygard@gmail.com" className="hover-underline pt-2.5">
+            <a href="mailto:eli.nygard@gmail.com" className="hover-underline py-1.5">
               Send me an <span className="uppercase">email</span>
             </a>
           </li>

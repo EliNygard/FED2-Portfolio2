@@ -6,7 +6,7 @@ const Layout = () => {
   return (
     <div className="min-h-screen grid grid-rows-[auto_1fr_auto]">
       <Header />
-      <main className="max-w-7xl mx-auto px-2">
+      <main className="max-w-7xl mx-auto px-2 md:px-4 mb-8">
         <Outlet></Outlet>
       </main>
       <Footer />
