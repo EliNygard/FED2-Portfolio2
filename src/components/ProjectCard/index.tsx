@@ -17,7 +17,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
       <Link to={"/project"} className="uppercase hover-underline pt-2.5">
         Read more about the project
       </Link>
-      <div className="mt-8">
+      <div className="mt-8 flex justify-between gap-3 flex-wrap">
         <a
           href={gitHub}
           target="_blank"
