@@ -16,7 +16,7 @@
   height: 1.6px;
   border-radius: 0px;
   background-color: #74AFAF;
-  bottom: 0;
+  bottom: -4px;
   left: 0;
   transform-origin: center;
   transform: scaleX(0);
