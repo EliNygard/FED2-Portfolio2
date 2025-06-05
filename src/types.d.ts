@@ -6,7 +6,7 @@ export interface Project {
   link: string;
   gitHub: string;
   screenshot: { img: string; alt: string };
-  improvements?: Record<string, string>;
+  improvements?: string[];
 }
 
 export interface ProjectsJSON {

@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import type { Project } from "../../types";
+import ProjectArticle from "../../components/ProjectArticle";
 
 interface ProjectPageProps {
   projects: Project[];
@@ -29,9 +30,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ projects }) => {
   }
 
   return (
-    <article>
-      <h1>{project.title}</h1>
-    </article>
+    <ProjectArticle project={project} />
   );
 };
 

@@ -30,6 +30,7 @@ h1 {
 h2 {
   font-size: 1.125rem;
   line-height: 150%;
+  margin-bottom: 1rem;
 }
 
 p {
@@ -42,4 +43,5 @@ p {
   --breakpoint-lg: 58rem;
   --font-dm-sans: "DM Sans", sans-serif;
   --color-theme-secondary: #f0e9e0;
+  --color-font-secondary: #2c282d;
 }

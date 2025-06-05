@@ -8,7 +8,7 @@
       "link": "https://pe-holidaze.vercel.app/",
       "gitHub": "https://github.com/EliNygard/FED2-PE2-EliNygard",
       "screenshot": {
-        "img": "./PE2_Holidaze.jpg",
+        "img": "/PE2_Holidaze.jpg",
         "alt": "Holidaze home page"
       }
     },
@@ -20,15 +20,14 @@
       "link": "https://infinitefinds.netlify.app/",
       "gitHub": "https://github.com/EliNygard/FED2-JSFrameworks-CA",
       "screenshot": {
-        "img": "./JSF_InfiniteFinds.jpg",
+        "img": "/JSF_InfiniteFinds.jpg",
         "alt": "The home page of Infinite Finds"
       },
-      "improvements": {
-        "01": "Added JSDocs and improved TypeScript types to improve the developer experience",
-        "02": "Added prettier setting to handle code indentation",
-        "03": "Written JSX elements in a self-closing format to improve readability and consistency",
-        "04": "Removed unnecessary use of React Fragments"
-      }
+      "improvements": [
+        "Added JSDocs and improved TypeScript types to improve the developer experience",
+        "Added prettier setting to handle code indentation",
+        "Written JSX elements in a self-closing format to improve readability and consistency",
+        "Removed unnecessary use of React Fragments"]
     },
     {
       "id": "01",
@@ -38,12 +37,12 @@
       "link": "https://bidlet.netlify.app/",
       "gitHub": "https://github.com/EliNygard/FED2-SP2-Bidlet",
       "screenshot": {
-        "img": "./SP2_Bidlet.jpg",
+        "img": "/SP2_Bidlet.jpg",
         "alt": "The home page of Bidlet"
       },
-      "improvements": {
-        "01": "Added end to end tests with Playground on login and create a new listing"
-      }
+      "improvements": [
+        "Added end to end tests with Playground on login and create a new listing"
+      ]
     }
   ]
 }
