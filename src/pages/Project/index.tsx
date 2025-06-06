@@ -29,9 +29,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ projects }) => {
     );
   }
 
-  return (
-    <ProjectArticle project={project} />
-  );
+  return <ProjectArticle key={project.id} project={project} />;
 };
 
 export default ProjectPage;
