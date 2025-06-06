@@ -7,7 +7,7 @@ interface ProjectCardProps {
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
-  const { title, description, link, gitHub, screenshot } = project;
+  const { title, teaser, link, gitHub, screenshot } = project;
 
   return (
     <section className="border border-black rounded-md p-3 max-w-[511px] flex flex-col justify-between">
@@ -16,7 +16,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           <img src={screenshot.img} alt={screenshot.alt} className="mb-4" />
         </div>
         <h2 className="mb-2">{title}</h2>
-        <p className="mb-6">{description}</p>
+        <p className="mb-6">{teaser}</p>
         <p className="uppercase inline hover-underline py-1.5">
           Read more about the project
         </p>

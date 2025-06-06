@@ -3,8 +3,10 @@
     {
       "id": "03",
       "title": "Holidaze",
-      "description": "This is my final exam at Noroff. The goal of this assignment was to take the skills I have learned over the last two years and take on an extensive project. This is a web site for the fictional client Holidaze where you can book a stay at a venue.",
-      "technologies": ["Figma", "Next.js", "React", "TypeScript", "Tailwind CSS"],
+      "teaser": "A website where you can find your next place to stay and book your holiday.",
+      "intro": "Holidaze is a website built for the fictional client with the same name. This is my final exam at Noroff and the goal of this exam project was to use all the skills I have learned over the last two years and take on an extensive project.",
+      "description": "You can visit this website and browse through all the venues Holidaze has to offer and you can register as a customer or as a venue manager. As a customer you can search for your perfect place to stay, dive into the venue’s photos and details and book your dates with a few clicks. On your profile page you can view all your upcoming reservations. As a venue manager you can of course book a stay, but you can also create and host your own venues. On your profile page you have a full overview of your venues, and the bookings made, and your own bookings on other venues. Visit the website and have fun trying it out!",
+      "technologies": ["Figma", "Next.js", "React", "TypeScript", "Tailwind CSS", "Styled Components", "Zod", "Zustand", "React Hook Form"],
       "link": "https://pe-holidaze.vercel.app/",
       "gitHub": "https://github.com/EliNygard/FED2-PE2-EliNygard",
       "screenshot": {
@@ -15,8 +17,10 @@
     {
       "id": "02",
       "title": "Infinite Finds",
-      "description": "This is a website for the fictional online shop Infinite Finds, built for the course JavaScript Frameworks at Noroff. Brows through diverse products, add to cart and checkout. The goal of this course assignment was to use React to build the website.",
-      "technologies": ["Figma", "Vite", "React", "TypeScript", "Tailwind CSS"],
+      "teaser": "An online shop where you can buy a diverse range of products.",
+      "intro": "This is a website for the fictional online shop Infinite Finds, built for the course JavaScript Frameworks at Noroff. The goal of this course assignment was to use React and the skills I learnt during the course to build an online shop website.",
+      "description": "Visitors can browse through a range of diverse products, search for anything special, read more about each product, add to cart and check out. If you wish you can visit the website and try it out. No worries, no real payment is made.",
+      "technologies": ["Figma", "Vite", "React", "TypeScript", "Tailwind CSS", "Styled Components", "Redux Toolkit", "React Router", "React Hook Form", "Zod", "Yup"],
       "link": "https://infinitefinds.netlify.app/",
       "gitHub": "https://github.com/EliNygard/FED2-JSFrameworks-CA",
       "screenshot": {
@@ -32,8 +36,10 @@
     {
       "id": "01",
       "title": "Bidlet",
-      "description": "Bidlet is my Semester Project after the third semester at Noroff.  This is a website for the fictional auction house Bidlet. A website where you can register as a user to buy and sell items, or just visit the site to browse through all the items on auction.",
-      "technologies": ["Figma", "Vite", "HTML", "Tailwind CSS", "TypeScript"],
+      "teaser": "An auction house website where you can sell and bid on items.",
+      "intro": "Bidlet is an auction website for the fictional auction house of the same name. It is my Semester Project after the third semester at Noroff. The goal of this project was to take the skills I have learned over the past three semesters and create an auction website.",
+      "description": "I wanted the design to be clean and user friendly, taking the visitors straight to the active items on auction. Visitors can browse among all the items or make a search if they are looking for something specific. To make a bid, they must register and once logged in they can start bidding or selling within minutes. Registered users receive 1000 credits upon joining and can use them to place bids on other people’s items. Want to try? Go to the website and register a user to test out my project.",
+      "technologies": ["Figma", "Vite", "TypeScript", "HTML", "Tailwind CSS"],
       "link": "https://bidlet.netlify.app/",
       "gitHub": "https://github.com/EliNygard/FED2-SP2-Bidlet",
       "screenshot": {

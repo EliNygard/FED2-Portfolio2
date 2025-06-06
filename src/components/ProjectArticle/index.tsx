@@ -8,7 +8,7 @@ interface ProjectArticleProps {
 }
 
 const ProjectArticle: React.FC<ProjectArticleProps> = ({ project }) => {
-  const { title, description, link, gitHub, screenshot, improvements } =
+  const { title, intro, description, technologies, link, gitHub, screenshot, improvements } =
     project;
 
   return (
@@ -51,16 +51,30 @@ const ProjectArticle: React.FC<ProjectArticleProps> = ({ project }) => {
       </nav>
 
       <div className="my-8 md:col-span-full">
-        <section className="mb-7">
+        <section className="mb-7 flex flex-col gap-4">
           <h2>About the project</h2>
-          <p>{description}</p>
+          <div className="flex flex-col gap-4">
+            <p>{intro}</p>
+            <p>{description}</p>
+          </div>
+          {technologies ? (
+            <div>
+              <h3>Some of the tools I have used on this project:</h3>
+              <ul className="flex flex-wrap gap-4">
+                {technologies.map((tech) => (
+                  <li key={tech}>{tech}</li>
+                ))}
+              </ul>
+            </div>
+          ) : ("")}
         </section>
 
         {improvements ? (
           <section>
-            <h2>Reflections and Improvements</h2>
+            <h2>Improvements</h2>
             <p className="mb-4">
-              After feedback I have made some improvements on this project
+              Since delivery and after received feedback I have made some
+              improvements on this project:
             </p>
             <ul className="list-disc ml-6 flex flex-col gap-2">
               {improvements.map((item) => (
