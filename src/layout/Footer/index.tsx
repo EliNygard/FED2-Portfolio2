@@ -32,6 +32,12 @@ const Footer = () => {
             </a>
           </li>
         </ul>
+
+        <div className="flex justify-center gap-2 mt-10 md:mt-14 text-sm text-font-secondary">
+          <span className="uppercase">Portfolio</span>
+          <span>Eli Nygård</span>
+          <span>2025</span>
+        </div>
       </nav>
     </footer>
   );
