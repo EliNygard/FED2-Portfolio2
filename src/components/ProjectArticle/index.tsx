@@ -1,32 +1,40 @@
 import type React from "react";
 import type { Project } from "../../types";
-import { LuShare } from "react-icons/lu";
+import CopyUrlButton from "../CopyUrlButton";
+import { Link } from "react-router-dom";
 
 interface ProjectArticleProps {
   project: Project;
 }
 
 const ProjectArticle: React.FC<ProjectArticleProps> = ({ project }) => {
-  const { title, description, link, gitHub, screenshot, improvements } =
-    project;
+  const {
+    title,
+    intro,
+    description,
+    technologies,
+    link,
+    gitHub,
+    screenshot,
+    improvements,
+  } = project;
 
   return (
     <article className="max-w-[1120px] m-auto grid grid-cols-1 md:grid-cols-[1fr_250px]">
       <header className="flex justify-between items-center mb-4 md:mb-8 md:col-span-full">
         <h1>{title}</h1>
-        <div className="flex gap-2 items-center justify-center p-2 md:p-0">
-          <LuShare aria-label="" />
-          <span className="hidden md:block uppercase">Share</span>
-        </div>
+        <CopyUrlButton />
       </header>
 
       <div className="md:col-1">
-        <img src={screenshot.img} alt={screenshot.alt} />
-        <div className="text-xs md:text-sm text-font-secondary py-1">{screenshot.alt}</div>
+        <img src={screenshot.img} alt={screenshot.alt} className="w-full" />
+        <div className="text-xs md:text-sm text-font-secondary py-1">
+          {screenshot.alt}
+        </div>
       </div>
 
-      <nav className="mt-8">
-        <ul className="flex justify-between gap-3 flex-wrap md:col-2 md:flex-col md:justify-start md:ml-12 md:gap-10 md:m-0">
+      <nav className="mt-8 md:col-2 md:justify-start md:ml-12 md:m-0">
+        <ul className="flex justify-between gap-3 flex-wrap md:flex-col md:gap-10">
           <li>
             <a
               href={link}
@@ -50,19 +58,37 @@ const ProjectArticle: React.FC<ProjectArticleProps> = ({ project }) => {
         </ul>
       </nav>
 
-      <div className="mt-8 md:col-span-full">
-        <section className="mb-7">
+      <div className="my-8 md:col-span-2">
+        <section className="mb-7 flex flex-col gap-4">
           <h2>About the project</h2>
-          <p>{description}</p>
+          <div className="flex flex-col gap-4">
+            <p>{intro}</p>
+            <p>{description}</p>
+          </div>
+          {technologies ? (
+            <div>
+              <h3>Designed and built with:</h3>
+              <ul className="flex flex-wrap gap-4">
+                {technologies.map((tech) => (
+                  <li key={tech}>{tech}</li>
+                ))}
+              </ul>
+            </div>
+          ) : (
+            ""
+          )}
         </section>
 
         {improvements ? (
           <section>
-            <h2>Reflections and Improvements</h2>
-            <p className="mb-4">After feedback I have made some improvements on this project</p>
+            <h2>Improvements</h2>
+            <p className="mb-4">
+              Since delivery and after received feedback I have made some
+              improvements on this project:
+            </p>
             <ul className="list-disc ml-6 flex flex-col gap-2">
               {improvements.map((item) => (
-                <li>{item}</li>
+                <li key={item}>{item}</li>
               ))}
             </ul>
           </section>
@@ -70,6 +96,10 @@ const ProjectArticle: React.FC<ProjectArticleProps> = ({ project }) => {
           ""
         )}
       </div>
+
+      <Link to={"/"} className="mt-4 md:col-start-1 uppercase">
+        <span className="hover-underline py-1.5">Back to projects</span>
+      </Link>
     </article>
   );
 };
