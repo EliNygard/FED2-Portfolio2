@@ -8,8 +8,16 @@ interface ProjectArticleProps {
 }
 
 const ProjectArticle: React.FC<ProjectArticleProps> = ({ project }) => {
-  const { title, intro, description, technologies, link, gitHub, screenshot, improvements } =
-    project;
+  const {
+    title,
+    intro,
+    description,
+    technologies,
+    link,
+    gitHub,
+    screenshot,
+    improvements,
+  } = project;
 
   return (
     <article className="max-w-[1120px] m-auto grid grid-cols-1 md:grid-cols-[1fr_250px]">
@@ -25,8 +33,8 @@ const ProjectArticle: React.FC<ProjectArticleProps> = ({ project }) => {
         </div>
       </div>
 
-      <nav className="mt-8">
-        <ul className="flex justify-between gap-3 flex-wrap md:col-2 md:flex-col md:justify-start md:ml-12 md:gap-10 md:m-0">
+      <nav className="mt-8 md:col-2 md:justify-start md:ml-12 md:m-0">
+        <ul className="flex justify-between gap-3 flex-wrap md:flex-col md:gap-10">
           <li>
             <a
               href={link}
@@ -50,7 +58,7 @@ const ProjectArticle: React.FC<ProjectArticleProps> = ({ project }) => {
         </ul>
       </nav>
 
-      <div className="my-8 md:col-span-full">
+      <div className="my-8 md:col-span-2">
         <section className="mb-7 flex flex-col gap-4">
           <h2>About the project</h2>
           <div className="flex flex-col gap-4">
@@ -66,7 +74,9 @@ const ProjectArticle: React.FC<ProjectArticleProps> = ({ project }) => {
                 ))}
               </ul>
             </div>
-          ) : ("")}
+          ) : (
+            ""
+          )}
         </section>
 
         {improvements ? (
