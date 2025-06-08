@@ -19,7 +19,7 @@ const ProjectArticle: React.FC<ProjectArticleProps> = ({ project }) => {
       </header>
 
       <div className="md:col-1">
-        <img src={screenshot.img} alt={screenshot.alt} />
+        <img src={screenshot.img} alt={screenshot.alt} className="w-full" />
         <div className="text-xs md:text-sm text-font-secondary py-1">
           {screenshot.alt}
         </div>
@@ -59,7 +59,7 @@ const ProjectArticle: React.FC<ProjectArticleProps> = ({ project }) => {
           </div>
           {technologies ? (
             <div>
-              <h3>Some of the tools I have used on this project:</h3>
+              <h3>Designed and built with:</h3>
               <ul className="flex flex-wrap gap-4">
                 {technologies.map((tech) => (
                   <li key={tech}>{tech}</li>

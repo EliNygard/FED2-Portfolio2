@@ -10,8 +10,8 @@
       "link": "https://pe-holidaze.vercel.app/",
       "gitHub": "https://github.com/EliNygard/FED2-PE2-EliNygard",
       "screenshot": {
-        "img": "/PE2_Holidaze.jpg",
-        "alt": "Holidaze home page"
+        "img": "/heroimages/Holidaze_heroimg.webp",
+        "alt": "Holidaze home page seen on desktop, tablet and mobile screen sizes."
       }
     },
     {
@@ -24,8 +24,8 @@
       "link": "https://infinitefinds.netlify.app/",
       "gitHub": "https://github.com/EliNygard/FED2-JSFrameworks-CA",
       "screenshot": {
-        "img": "/JSF_InfiniteFinds.jpg",
-        "alt": "The home page of Infinite Finds"
+        "img": "/heroimages/InfiniteFinds_heroimg.webp",
+        "alt": "A responsive product page at Infinite Finds."
       },
       "improvements": [
         "Added JSDocs and improved TypeScript types to improve the developer experience",
@@ -43,8 +43,8 @@
       "link": "https://bidlet.netlify.app/",
       "gitHub": "https://github.com/EliNygard/FED2-SP2-Bidlet",
       "screenshot": {
-        "img": "/SP2_Bidlet.jpg",
-        "alt": "The home page of Bidlet"
+        "img": "/heroimages/Bidlet_heroimg.webp",
+        "alt": "Bidlet home page seen on desktop, tablet and mobile screen sizes."
       },
       "improvements": [
         "Added end to end tests with Playground on login and create a new listing"
