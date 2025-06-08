@@ -5,6 +5,8 @@ import { useLocation } from "react-router-dom";
 const CopyUrlButton = () => {
   const [success, setIsSuccess] = useState(false);
   const location = useLocation();
+  console.log(location);
+  
 
   const handleCopy = async () => {
     const fullUrl =
@@ -12,6 +14,9 @@ const CopyUrlButton = () => {
       location.pathname +
       location.search +
       location.hash;
+
+      console.log('fullurl: ', fullUrl);
+      
 
     try {
       await navigator.clipboard.writeText(fullUrl);
