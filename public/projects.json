@@ -1,6 +1,20 @@
 {
   "projects": [
     {
+      "id": "04",
+      "title": "Christina Lande - a filmmaker's portfolio",
+      "teaser": "This portfolio website displays Christina Lande's work. You can read more about each film project, get to know Christina and contact her.",
+      "intro": "",
+      "description": "",
+      "technologies": ["Figma", "HTML", "CSS", "JavaScript"],
+      "link": "https://elinygard.github.io/ChristinaLande/",
+      "gitHub": "https://github.com/EliNygard/ChristinaLande",
+      "screenshot": {
+        "img": "/heroimages/ChristinaLande_heroimg.webp",
+        "alt": "Christina Landes home page seen on desktop."
+      }
+    },
+    {
       "id": "03",
       "title": "Holidaze",
       "teaser": "A website where you can find your next place to stay and book your holiday.",
