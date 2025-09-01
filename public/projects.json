@@ -105,6 +105,20 @@
         "img": "/heroimages/HotViewLabs_heroimg.webp",
         "alt": "HotView Labs seen on desktop."
       }
+    },
+    {
+      "id": "00a",
+      "title": "Tórshavn Science Museum",
+      "teaser": "A website for a museum that wants to attract families and children. A Semester Project at Noroff.",
+      "intro": "The web page for the fictive client Tórshavn Science Museum is my Semester Project after the first semester at Noroff. Here I put into practice what I have learned from the courses Design, HTML & CSS and Project Planning.",
+      "description": "",
+      "technologies": ["Figma", "HTML", "CSS"],
+      "link": "https://elinygard.github.io/FED1-SP1-EliNygard/",
+      "gitHub": "https://github.com/EliNygard/FED1-SP1-EliNygard",
+      "screenshot": {
+        "img": "/heroimages/TSM_heroimg.webp",
+        "alt": "Tórshavn Science Museum seen on desktop."
+      }
     }
   ]
 }
