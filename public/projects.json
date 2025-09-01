@@ -1,6 +1,20 @@
 {
   "projects": [
     {
+      "id": "05",
+      "title": "Revhaugen gård - WORK IN PROGRESS",
+      "teaser": "This will be the website for Revhaugen gård, a farm and Inn på tunet gård located in Laukvika, Lofoten.",
+      "intro": "This website will be showing off Revhaugen gård as a welcoming place for everyone who seeks for a closer contact with animals and nature. It will display all the things you can experience at the farm, who works here and all the animals you can meet.",
+      "description": "There will be lots of activities happening at the farm and the website will have a blog section where the visitors of the website can read about all the events.",
+      "technologies": ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+      "link": "https://www.revhaugengard.no/",
+      "gitHub": "https://github.com/EliNygard/revhaugengaard",
+      "screenshot": {
+        "img": "/heroimages/Revhaugen_heroimg.jpg",
+        "alt": "A work in progress image of Revhaugen gård."
+      }
+    },
+    {
       "id": "04",
       "title": "Christina Lande - a filmmaker's portfolio",
       "teaser": "This portfolio website displays Christina Lande's work. You can read more about each film project, get to know Christina and contact her.",
