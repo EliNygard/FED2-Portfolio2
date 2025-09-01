@@ -82,11 +82,11 @@
       "id": "00c",
       "title": "Noroff Social App",
       "teaser": "A fictional social community where text and images can be shared and commented on. A Noroff course assignment.",
-      "intro": "This started out as a Java Script 2 assignment and evolved through the courses Workflow and CSS Frameworks. I have designed and built a fictional social community for Noroff staff and students where they can share images and text and comment on each other's posts.",
-      "description": "I designed it for mobile and tablet screen sizes only, it is not fully responsive for desktop as it has a narrow width.",
+      "intro": "This started out as a Java Script 2 assignment and evolved through the courses Workflow and CSS Frameworks. I have designed and built a fictional social community for Noroff staff and students where they can share images and text and comment on each other's posts. I designed it for mobile and tablet screen sizes only, it is not fully responsive for desktop as it has a narrow width.",
+      "description": "You must have an account to see the community. You can easily register and log in to test out the website.",
       "technologies": ["Figma", "JavaScript", "HTML", "Tailwind CSS"],
-      "link": "",
-      "gitHub": "",
+      "link": "https://elinygard.github.io/NoroffSocialApp/",
+      "gitHub": "https://github.com/EliNygard/NoroffSocialApp",
       "screenshot": {
         "img": "/heroimages/NoroffSocialApp_heroimg.webp",
         "alt": "Noroff Social App."
