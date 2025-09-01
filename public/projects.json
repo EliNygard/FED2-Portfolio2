@@ -91,6 +91,20 @@
         "img": "/heroimages/NoroffSocialApp_heroimg.webp",
         "alt": "Noroff Social App."
       }
+    },
+    {
+      "id": "00b",
+      "title": "HotView Labs",
+      "teaser": "A blog where you can register and post content. A Project Exam at Noroff.",
+      "intro": "I have designed and built a blog site for the fictional client HotView Labs. The blog aims to provide the most accurate and up to date insights to tech leaders across the world. Here you can read blog posts on what's going on in the tech industry, from the most recent research to new developments. You can register a user and create blog posts.",
+      "description": "This is my Project Exam after the first year at Noroff.",
+      "technologies": ["Figma", "JavaScript", "HTML", "CSS"],
+      "link": "https://norofffeu.github.io/FED1-PE1-EliNygard/",
+      "gitHub": "https://github.com/NoroffFEU/FED1-PE1-EliNygard",
+      "screenshot": {
+        "img": "/heroimages/HotViewLabs_heroimg.webp",
+        "alt": "HotView Labs seen on desktop."
+      }
     }
   ]
 }
