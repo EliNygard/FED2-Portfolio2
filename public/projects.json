@@ -31,7 +31,7 @@
     {
       "id": "03",
       "title": "Holidaze",
-      "teaser": "A website where you can find your next place to stay and book your holiday.",
+      "teaser": "A website where you can find your next place to stay and book your holiday. A project exam at Noroff.",
       "intro": "Holidaze is a website built for the fictional client with the same name. This is my final exam at Noroff and the goal of this exam project was to use all the skills I have learned over the last two years and take on an extensive project.",
       "description": "You can visit this website and browse through all the venues Holidaze has to offer and you can register as a customer or as a venue manager. As a customer you can search for your perfect place to stay, dive into the venue’s photos and details and book your dates with a few clicks. On your profile page you can view all your upcoming reservations. As a venue manager you can of course book a stay, but you can also create and host your own venues. On your profile page you have a full overview of your venues, and the bookings made, and your own bookings on other venues. Visit the website and have fun trying it out!",
       "technologies": ["Figma", "Next.js", "React", "TypeScript", "Tailwind CSS", "Styled Components", "Zod", "Zustand", "React Hook Form"],
@@ -45,7 +45,7 @@
     {
       "id": "02",
       "title": "Infinite Finds",
-      "teaser": "An online shop where you can buy a diverse range of products.",
+      "teaser": "An online shop where you can buy a diverse range of products. A Noroff course assignment.",
       "intro": "This is a website for the fictional online shop Infinite Finds, built for the course JavaScript Frameworks at Noroff. The goal of this course assignment was to use React and the skills I learnt during the course to build an online shop website.",
       "description": "Visitors can browse through a range of diverse products, search for anything special, read more about each product, add to cart and check out. If you wish you can visit the website and try it out. No worries, no real payment is made.",
       "technologies": ["Figma", "Vite", "React", "TypeScript", "Tailwind CSS", "Styled Components", "Redux Toolkit", "React Router", "React Hook Form", "Zod", "Yup"],
@@ -64,7 +64,7 @@
     {
       "id": "01",
       "title": "Bidlet",
-      "teaser": "An auction house website where you can sell and bid on items.",
+      "teaser": "An auction house website where you can sell and bid on items. A semester project at Noroff.",
       "intro": "Bidlet is an auction website for the fictional auction house of the same name. It is my Semester Project after the third semester at Noroff. The goal of this project was to take the skills I have learned over the past three semesters and create an auction website.",
       "description": "I wanted the design to be clean and user friendly, taking the visitors straight to the active items on auction. Visitors can browse among all the items or make a search if they are looking for something specific. To make a bid, they must register and once logged in they can start bidding or selling within minutes. Registered users receive 1000 credits upon joining and can use them to place bids on other people’s items. Want to try? Go to the website and register a user to test out my project.",
       "technologies": ["Figma", "Vite", "TypeScript", "HTML", "Tailwind CSS"],
@@ -77,6 +77,20 @@
       "improvements": [
         "Added end to end tests with Playground on login and create a new listing"
       ]
+    },
+    {
+      "id": "00c",
+      "title": "Noroff Social App",
+      "teaser": "A fictional social community where text and images can be shared and commented on. A Noroff course assignment.",
+      "intro": "This started out as a Java Script 2 assignment and evolved through the courses Workflow and CSS Frameworks. I have designed and built a fictional social community for Noroff staff and students where they can share images and text and comment on each other's posts.",
+      "description": "I designed it for mobile and tablet screen sizes only, it is not fully responsive for desktop as it has a narrow width.",
+      "technologies": ["Figma", "JavaScript", "HTML", "Tailwind CSS"],
+      "link": "",
+      "gitHub": "",
+      "screenshot": {
+        "img": "/heroimages/NoroffSocialApp_heroimg.webp",
+        "alt": "Noroff Social App."
+      }
     }
   ]
 }
