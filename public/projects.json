@@ -4,9 +4,9 @@
       "id": "05",
       "title": "Revhaugen gård - WORK IN PROGRESS",
       "teaser": "This will be the website for Revhaugen gård, a farm and Inn på tunet gård located in Laukvika, Lofoten.",
-      "intro": "This website will be showing off Revhaugen gård as a welcoming place for everyone who seeks for a closer contact with animals and nature. It will display all the things you can experience at the farm, who works here and all the animals you can meet.",
-      "description": "There will be lots of activities happening at the farm and the website will have a blog section where the visitors of the website can read about all the events.",
-      "technologies": ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+      "intro": "This website presents Revhaugen gård as a warm and inviting place for those who want a deeper connection with animals and nature. It highlights the experiences you can enjoy on the farm, introduces the people who work here, and lets you meet all the animals. The farm is also a Inn på tunet gård, located in beautiful Laukvika in Lofoten. “Inn på tunet” refers to adapted and quality-assured welfare services offered on farms. The aim is to provide coping skills, personal development, and well-being. The activities are closely linked to the farm itself, everyday life, and the work that takes place there.",
+      "description": "The website will be set up with Sanity as a headless CMS, giving the client the freedom to share news and stories from the farm, including upcoming events and activities.",
+      "technologies": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Figma"],
       "link": "https://www.revhaugengard.no/",
       "gitHub": "https://github.com/EliNygard/revhaugengaard",
       "screenshot": {
